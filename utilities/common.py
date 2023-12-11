@@ -31,8 +31,9 @@ def save_csv(df, filename, encoding="utf-8_sig", index=False, quoting=csv.QUOTE_
 
 def load_csv(filename, encoding="utf-8_sig", **kwargs):
   return pd.read_csv(filename, encoding=encoding, **kwargs)
-filename = ensure_dir("test") / "test.csv"
-filename.touch()
+
+# filename = ensure_dir("test") / "test.csv"
+# filename.touch()
 
 # df = pd.DataFrame([dict(id=x, name=f"name of {x:03}") for x in range(100)])
 # kwargs = {}
