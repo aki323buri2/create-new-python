@@ -1,0 +1,7 @@
+jupyterlab
+pandas
+numpy
+openpyxl
+python-dateutil
+fastapi
+uvicorn[standard]
